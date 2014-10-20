@@ -14,9 +14,9 @@ The following table represents how Genepop stores ordered sample alleles differe
 
 |  | Genepop | SPAM |
 | --- | --- | --- |
-| a/a | 0101 | 20 |
-| a/b | 0102 | 11 |
-| b/b | 0202 | 02 |
+| A/a | 0101 | 20 |
+| A/a | 0102 | 11 |
+| a/a | 0202 | 02 |
 
 For mixture files, this function changes the ids of the allele listed in the Genepop file (01 and 02) to the counts of the allele in a number in a number string as long as the number of alleles.
 
