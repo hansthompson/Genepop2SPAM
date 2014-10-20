@@ -10,7 +10,7 @@ _This function is currently in a testing stage. Please send all non-working exam
 
 **About:**
 
-**   ** The following table represents how Genepop stores ordered sample alleles differently between the SPAM mixture file for a SNP.
+The following table represents how Genepop stores ordered sample alleles differently between the SPAM mixture file for a SNP.
 
 |  | Genepop | SPAM |
 | --- | --- | --- |
@@ -50,29 +50,31 @@ Here is an example of how to use the function:
 
 * Bring the function, DevGen2SPAM.GCL, into the R environment by entering into the console,
 ```
->source(filedirectory)```
+>source(filedirectory)
+```
 
 The filedirectory is the full directory path to the DevGen2SPAM.GCL.R file. Use the forward slash to separate between directories. It should now be possible to enter the name of the function into the console and return its source. This is a good test to see if it is available.
 
 * Find the working directory and place the genepop file/s in this directory.
 ```
->getwd()```
+>getwd()
+```
 
 something similar to "C:/Users/user/Documents" should appear #and be where you should place all the files.
 
 If you would like to run the function from a different folder outside this example, you can change the working directory.
 ```
->setwd(yourDirectory)```
+>setwd(yourDirectory)
+```
 
 Or enter the full file path into the function.
 
 3. Run the function without labeling the full file paths. If you have multiple mixtures you would like to test against the baseline, add all of them at the same time to the function. To do this, wrap the file names in the concatenation function c with quotes surrounding each file and a comma separating each quotation:
 ```
 >c("file1", "file2", "file3")```
-So it should run as so (without the fullpath for this example):
-```
+#So it should run as so (without the fullpath for this example):
 >DevGen2SPAM.GCL(baselineFile = "file1.gen", mixtureFiles = c("file2.gen", "file3.gen", "file4.gen")```
-
+```
 Note that baselineFile is singular and mixtureFiles can be any number of files. 
 
 This should write your baseline file and three mixture files using the same file names that were provided. If you would like to put new names for the files, additional arguments baselineOutPath and baselineOutPath can be used to match the number of files that were used as inputs. It is important that
