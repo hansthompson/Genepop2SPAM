@@ -6,7 +6,7 @@ Alaska Dept. of Fish & Game
 Gene Conservation Laboratory
 
 
-_This function is currently in a testing stage. Please send all non-working examples to charles.thompson@alaska.gov for review if possible. _
+_This function is currently in a testing stage. Please send all non-working examples to charles.thompson@alaska.gov for review if possible._
 
 **About:**
 
@@ -27,7 +27,8 @@ To use this tool, install the most recent version of [R]  (http://www.r-project.
 ```
 install.packages("stringr")
 library(devtools)
-install_github("hansthompson", "Genepop2SPAM")```
+install_github("hansthompson", "Genepop2SPAM")
+```
 
 **Considerations For Each Estimation and Simulation:**
 
