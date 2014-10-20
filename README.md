@@ -55,19 +55,20 @@ Here is an example of how to use the function:
 library(Genepop2SPAM)
 ```
 * Organize your Genepop files
-1. Find the working directory and place the genepop file/s in this directory.
+
+a. Find the working directory and place the genepop file/s in this directory.
 ```
 >getwd()
 ```
 
 something similar to "C:/Users/user/Documents" should appear and be where you should place the genepop files.
 
-2. If you would like to run the function from a different folder outside this example, you can change the working directory.
+b. If you would like to run the function from a different folder outside this example, you can change the working directory.
 ```
 >setwd(yourDirectory)
 ```
 
-3. Or enter the full file path into the function.
+c. Or enter the full file path into the function.
 
 * Run the function without labeling the full file paths. If you have multiple mixtures you would like to test against the baseline, add all of them at the same time to the function. To do this, wrap the file names in the concatenation function c with quotes surrounding each file and a comma separating each quotation:
 ```
