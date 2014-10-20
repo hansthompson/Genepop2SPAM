@@ -73,7 +73,7 @@ Or enter the full file path into the function.
 ```
 >c("file1", "file2", "file3")```
 #So it should run as so (without the fullpath for this example):
->DevGen2SPAM.GCL(baselineFile = "file1.gen", mixtureFiles = c("file2.gen", "file3.gen", "file4.gen")```
+>DevGen2SPAM.GCL(baselineFile = "file1.gen", mixtureFiles = c("file2.gen", "file3.gen", "file4.gen")
 ```
 Note that baselineFile is singular and mixtureFiles can be any number of files. 
 
