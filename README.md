@@ -25,9 +25,9 @@ For mixture files, this function changes the ids of the allele listed in the Gen
 To use this tool, install the most recent version of [R]  (http://www.r-project.org/). After loading into R install the additional package, "stringr". In the console enter:
 
 ```
-install.packages("stringr")
-library(devtools)
-install_github("hansthompson", "Genepop2SPAM")
+>install.packages("stringr")
+>library(devtools)
+>install_github("hansthompson", "Genepop2SPAM")
 ```
 
 **Considerations For Each Estimation and Simulation:**
